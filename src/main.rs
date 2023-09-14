@@ -163,7 +163,7 @@ async fn main() -> Result<(), ()> {
                     ChatCompletionRequestMessage {
                         role: Role::System,
                         content: Some(
-                            "You are an experienced programmer who writes great commit messages."
+                            "You are an experienced programmer who writes commit messages following the Angular guidelines."
                                 .to_string(),
                         ),
                         ..Default::default()
