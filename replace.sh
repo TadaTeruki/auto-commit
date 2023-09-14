@@ -1,0 +1,1 @@
+cp target/release/auto-commit $(which auto-commit)

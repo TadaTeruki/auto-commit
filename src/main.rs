@@ -163,7 +163,7 @@ async fn main() -> Result<(), ()> {
                     ChatCompletionRequestMessage {
                         role: Role::System,
                         content: Some(
-                            "You are an experienced programmer who writes commit messages with prefix, without capital letters."
+                            "You are an experienced programmer who writes commit messages without capital letters."
                                 .to_string(),
                         ),
                         ..Default::default()
@@ -198,7 +198,7 @@ async fn main() -> Result<(), ()> {
                     ChatCompletionFunctions {
                         name: "commit".to_string(),
                         description: Some(
-                            "Creates a commit with the given title and a description with prefix, without capital letters.".to_string(),
+                            "Creates a commit with the given title with prefix (like 'feat:', 'fix:' and 'chore:') and a description without capital letters.".to_string(),
                         ),
                         parameters: Some(serde_json::to_value(commit_schema).unwrap()),
                     },
