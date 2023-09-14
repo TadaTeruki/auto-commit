@@ -1,3 +1,12 @@
+
+# 注意
+
+このレポジトリは、個人用にフォークしたものです。以下の変更を加えています:
+ - prefixの追加
+ - メッセージの全ての文字を小文字にする
+
+___
+
 ![banner](https://user-images.githubusercontent.com/23558090/198913411-730bd7ff-3d9b-4a5e-831c-55691f97e11a.jpg)
 
 # Automagically-generated commit messages
